@@ -45,7 +45,7 @@
             height: 50px;
             width: 500px;
         } */
-        table,tr,td,th{
+        /* table,tr,td,th{
             border: 1px solid black;
             
             height: 20px;
@@ -54,6 +54,11 @@
         }
         td{
             width: 300px;
+        } */
+        table,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
         }
     </style>
 </head>
@@ -186,7 +191,7 @@
             </tr>
         </tfoot>
     </table> -->
-    <table>
+    <!-- <table>
         <thead>
               <tr>
                 <th rowspan="3">Day</th>
@@ -234,6 +239,90 @@
                  <td>XSL Formating Objects</td>
              </tr>
         </tbody>
+    </table> -->
+    <!-- <table>
+        <thead>
+            <tr>
+                <td rowspan="2">State of Health</td>
+                <td colspan="2">Fasting value</td>
+                <td>After Eating</td>
+            </tr>
+            <tr>
+              <td>Minimum</td>
+              <td>Maximum</td>
+              <td>2 hr after eating</td>
+            </tr>
+            <tr>
+               <td>healthy</td>
+               <td>70</td>
+               <td>100</td>
+               <td>lass than 140</td>
+            </tr>
+            <tr>
+                <td>Pre-diab</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td>NA</td>
+                <td>More than 200</td>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table> -->
+    <table>
+        <thead>
+              <tr>
+                <th colspan="6">Time Table</th>
+              </tr>
+           
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="6">Hours</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>fri</th>
+              </tr>
+              <tr>
+                <td>science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Arts</td>
+              </tr>
+              <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+                <td>Sports</td>
+              </tr>
+              <tr>
+                <th colspan="5">Lunch</th>
+              </tr>
+              <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td rowspan="2">Project</td>
+              </tr>
+              <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+              </tr>
+        </tbody>
     </table>
+    
 </body>
 </html>
